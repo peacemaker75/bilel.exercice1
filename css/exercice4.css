@@ -1,0 +1,27 @@
+.navbar-logo{
+    color: white;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    
+}
+
+nav ul{
+    display: none;
+    list-style: none;
+    padding-top: 10px;
+}
+
+nav a{
+    padding: 10px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    nav ul{
+        display: flex;
+    }
+}
+
